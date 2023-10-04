@@ -1,0 +1,27 @@
+{
+  "name": "calculadora-salario_karma-jasmine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DIEG0FERNANDES/salario-pre-prova.git",
+  "author": "Diego_dos_Santos_Fernandes <55159614+DIEG0FERNANDES@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx http-server",
+    "jasmine": "jasmine --config=jasmine.json",
+    "test-jasmine": "jasmine",
+    "test-dev": "karma start --no-browsers",
+    "test": "karma start --no-browsers --single-run"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "jasmine": "^5.0.2",
+    "karma": "^6.4.2",
+    "karma-browserify": "^8.1.0",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-cli": "^2.0.0",
+    "karma-jasmine": "^5.1.0",
+    "watchify": "^4.0.0"
+  }
+}

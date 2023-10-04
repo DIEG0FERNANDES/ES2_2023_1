@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "padrao";
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+body {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+  margin: 0;
+}
+body .container {
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fac960;
+  font-family: "padrao";
+  text-align: center;
+}
+body .container h1 {
+  font-family: "padrao";
+  margin: 10px 0px;
+  color: #8a6d2f;
+  font-size: 44px;
+  line-height: 54px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0px;
+  text-shadow: none;
+}
+body .container span {
+  font-family: "padrao";
+  text-align: start;
+  color: #8a6d2f;
+}
+body .container #form {
+  color: #8a6d2f;
+  font-size: 18px;
+  font-weight: 300;
+  margin: auto;
+  width: 60%;
+}
+body .container #form .form-input {
+  display: flex;
+  width: 65%;
+  margin: 0 auto 15px auto;
+}
+body .container #form .form-input #hrs {
+  text-align: center;
+  width: 240px;
+  border-radius: 30px;
+  box-shadow: none;
+  background-color: grey;
+  color: white;
+}
+body .container #form .form-input #sal {
+  text-align: center;
+  width: 120px;
+  border-radius: 30px;
+  box-shadow: none;
+  background-color: grey;
+  color: white;
+}
+
+@media screen and (max-width: 720px) {
+  #container {
+    width: 90%;
+    color: blueviolet;
+  }
+  h1 {
+    font-size: 150%;
+  }
+  #loan-form {
+    width: 100%;
+  }
+  .form-input {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-input input,
+  .form-input select {
+    margin: auto;
+    text-align: center;
+    font-size: 120%;
+  }
+  .form-input label,
+  #button-area button,
+  #result {
+    font-size: 120%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
