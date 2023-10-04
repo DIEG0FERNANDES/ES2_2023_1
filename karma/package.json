@@ -1,0 +1,25 @@
+{
+  "name": "karma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-jasmine": "jasmine",
+    "test-dev": "karma start",
+    "test": "karma start --single-run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@chiragrupani/karma-chromium-edge-launcher": "^2.3.1",
+    "jasmine": "^5.0.2",
+    "karma": "^6.4.2",
+    "karma-browserify": "^8.1.0",
+    "karma-cli": "^2.0.0",
+    "karma-edge-launcher": "^0.4.2",
+    "karma-ie-launcher": "^1.0.0",
+    "karma-jasmine": "^5.1.0",
+    "watchify": "^4.0.0"
+  }
+}
